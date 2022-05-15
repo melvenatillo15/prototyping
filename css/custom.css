@@ -1,0 +1,54 @@
+.red {
+border: 1px solid red;
+}
+.blue {
+border: 1px solid blue;
+}
+.white {
+color: #ffffff;
+}
+.green {
+border: 1px solid green;
+}
+.pink {
+border: 1px solid pink;
+}
+.yellow {
+border: 1px solid yellow;
+}
+.violet {
+  border: 1px solid violet;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background-image: url(../img/prototyping-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+    font-weight: bold;
+}
+.btn.btn-primary {
+    background-color: #4f9406;
+    border: #4f9406;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.btn.btn-primary:hover { background-color: #3a7000; }
+.card-wrapper {
+    overflow: hidden;
+}
+.card-box {
+    height: 100vh;
+}
+.card-box-white {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.card-boxcont {
+    padding: 35px;
+}
